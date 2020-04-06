@@ -1,10 +1,16 @@
 from tkinter import *
 
+
 sys = Tk()
-sys.title("Calcuadora")
+sys.title("Calculdora")
 sys.iconbitmap("c:/PythonFiles/image/python.ico")
 sys.geometry("500x500")
 sys.grid()
+
+
+
+
+
 
 Titulo = Label(sys,text="Calculadora Simples",justify="center", font=("Arial",16)).grid(row=0,column=1,columnspan=3,)
 Titulo02 = Label(sys,text="Digite o numero",font=("Italico",14)).grid(row=2,column=1)
