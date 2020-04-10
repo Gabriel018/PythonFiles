@@ -15,7 +15,7 @@ sys.grid()
 Titulo = Label(sys,text="Calculadora Simples",justify="center", font=("Arial",16)).grid(row=0,column=1,columnspan=3,)
 Titulo02 = Label(sys,text="Digite o numero",font=("Italico",14)).grid(row=2,column=1)
 
-Entrada = Entry(sys,width=30,borderwidth=6)
+Entrada = Entry(sys,width=40,borderwidth=6)
 Entrada.grid(row=3,column=1)
 
 def Click(number):
