@@ -23,6 +23,7 @@ seleciona.set(Cidades[0])
 Estados = OptionMenu(sys, seleciona,*Cidades)
 Estados.pack()
 
-btn = Button(sys, text="Mostrar", command=mostrar).pack()
+btn = Button(sys, text="Mostrar", command=mostrar)
+btn.pack()
 
 sys.mainloop()
