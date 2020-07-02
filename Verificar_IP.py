@@ -1,5 +1,5 @@
 import socket
 
 hostname = socket.gethostname()
-Meu_ip = socket.gethostbyname(hostname)
-print("Seu Ip e: " + Meu_ip)
+Meu_Ip = socket.gethostbyname(hostname)
+print("Seu ip e : " + Meu_Ip)
